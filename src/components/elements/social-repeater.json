@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_social_repeater",
+  "info": {
+    "displayName": "social_repeater",
+    "icon": "tasks"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "excluded.social"
+    }
+  }
+}

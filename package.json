@@ -1,0 +1,33 @@
+{
+  "name": "strapi-getting-started",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi Getting Started Project",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.1.3",
+    "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "4.1.3",
+    "@strapi/provider-email-sendmail": "^4.1.3",
+    "@strapi/strapi": "4.1.3",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-ckeditor5": "^2.0.0-rc.2"
+  },
+  "author": {
+    "name": "Given Loyiso"
+  },
+  "strapi": {
+    "uuid": "d0193062-0249-478c-915a-21c6d98b6bff"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

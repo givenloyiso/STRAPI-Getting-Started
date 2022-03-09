@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_seo_basics",
+  "info": {
+    "displayName": "basic",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "robots": {
+      "type": "enumeration",
+      "enum": ["index_follow", "noindex_nofollow", "noindex", "nofollow"],
+      "default": "index_follow"
+    }
+  }
+}

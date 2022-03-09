@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "option": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ]
+    }
+  }
+}

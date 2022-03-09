@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_title_editor_cover_link",
+  "info": {
+    "displayName": "title_editor_cover_link",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "editor": {
+      "type": "richtext"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}

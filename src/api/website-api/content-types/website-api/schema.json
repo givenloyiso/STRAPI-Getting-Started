@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_apis",
+  "info": {
+    "singularName": "website-api",
+    "pluralName": "website-apis",
+    "displayName": "Website API",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GOOGLE_TAG_MANAGER": {
+      "type": "string"
+    },
+    "GOOGLE_SITE_VERIFICATION": {
+      "type": "string"
+    },
+    "GOOGLE_MAPS_API": {
+      "type": "string"
+    },
+    "CUSTOM_API_1": {
+      "type": "string"
+    },
+    "CUSTOM_API_2": {
+      "type": "string"
+    },
+    "CUSTOM_API_3": {
+      "type": "string"
+    },
+    "CUSTOM_API_4": {
+      "type": "string"
+    }
+  }
+}

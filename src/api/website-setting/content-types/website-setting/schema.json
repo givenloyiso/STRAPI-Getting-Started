@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_settings",
+  "info": {
+    "singularName": "website-setting",
+    "pluralName": "website-settings",
+    "displayName": "Website Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_title": {
+      "type": "string"
+    },
+    "site_description": {
+      "type": "text"
+    },
+    "dark_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "light_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "primary_hex_color": {
+      "type": "string"
+    },
+    "secondary_hex_color": {
+      "type": "string"
+    },
+    "dark_hex_color": {
+      "type": "string"
+    },
+    "light_hex_color": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

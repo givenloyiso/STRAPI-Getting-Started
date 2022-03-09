@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_media",
+  "info": {
+    "displayName": "media",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "option": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video"
+      ],
+      "required": true
+    }
+  }
+}

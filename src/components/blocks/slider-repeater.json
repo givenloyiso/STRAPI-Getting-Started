@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slider",
+  "info": {
+    "displayName": "slider_repeater",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "array": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.title-editor-cover-link"
+    }
+  }
+}

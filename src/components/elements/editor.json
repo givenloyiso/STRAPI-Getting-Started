@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_editors",
+  "info": {
+    "displayName": "editor",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "editor": {
+      "type": "richtext"
+    }
+  }
+}

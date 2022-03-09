@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_navigations",
+  "info": {
+    "displayName": "navigation",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    }
+  }
+}

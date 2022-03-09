@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "hand-point-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "light",
+        "dark"
+      ]
+    }
+  }
+}

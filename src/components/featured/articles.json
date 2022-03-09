@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_featured_articles",
+  "info": {
+    "displayName": "articles",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
